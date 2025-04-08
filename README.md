@@ -25,7 +25,7 @@ The proposed approach consists of two stages:
 - **Fine-tuning with Limited Annotations:** The pretrained model is then fine-tuned using a small set of labeled data (
   only 20 cases), significantly reducing annotation requirements while maintaining high segmentation performance.
 
-![Framework Overview](fig\fig2_network.png)
+![Framework Overview](fig/fig2_network.png)
 
 Our strategy improves the model's ability to generalize across different fracture morphologies and datasets. Experiments
 on a proprietary dataset of 180 TPF CT scans show that our method achieves superior performance compared to existing
